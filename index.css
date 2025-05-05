@@ -1,0 +1,142 @@
+h1{
+    font-family:arial ;
+    background-color: rgb(0, 9, 108);
+    color:white;
+    border-radius: 23px;
+}
+table{
+    border:1px groove black;
+    border-radius: 5px;
+    height: 70px;
+    width: 600px;
+    font-family:arial ;
+    
+}
+select{
+    margin-left:65px ;
+    border:groove;
+    border-radius: 5px;
+}
+#carname{
+    width: 383px;
+    margin-left:57px ;
+    border: groove;
+    border-radius: 5px;
+}
+textarea{
+    margin-left: 150px;
+    border: groove;
+    margin-top: 0px;
+    width: 382px;
+    border-radius: 5px;
+}
+div{
+    margin-top: 8px;
+    font-size: auto;
+}
+#location{
+    margin-top: 16px;
+    margin-left:77px ;
+    border-radius: 5px;
+    width:384px;
+    border: groove;
+}
+
+#city{
+    margin-left:109px ;
+    border-radius: 5px;
+    width:384px;
+    border: groove;
+}
+#neighbourhood{
+    margin-left:32px ;
+    border-radius: 5px;
+    width:384px;
+    margin-bottom: 11px;
+    border: groove;
+}
+#price{
+    margin-left:98px ;
+    margin-top:-10px ;
+    border-radius: 5px;
+    width: 381px;
+    border: groove;
+}
+button{
+    padding: 12px 25px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color:rgb(0, 9, 108) ; 
+        color: white;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+}
+#name{
+    width: 383px;
+    margin-left: 91px;
+    border: groove;
+    border-radius: 5px;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+#phonenumber{
+    width: 383px;
+    margin-left: 152px;
+    border: groove;
+    border-radius: 5px;
+    margin-top:1px;
+}
+#title{
+    margin-left:73px ;
+    border-radius: 5px;
+    width: 380px;
+    border: groove;
+}
+.error{
+    color: rgb(255, 14, 14);
+    margin-left: 152px;
+
+}
+#pics{
+    display: none;
+}
+.picslabel{
+    cursor:pointer;
+    margin-left: 46px;
+    border:1px groove black;
+    border-radius:4px;
+    width: 20px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#container{
+    display: flex;
+    gap: -8px; 
+    margin-left: 101px;
+    margin-top: -20px;
+}
+.success{
+    color: rgb(20, 244, 42);
+    margin-left: 152px;
+
+
+}
+#newpagebox{
+    height: 100vmin;
+    display:none;
+}
+#newpage{
+    margin-top: 3px;
+    font-family: arial;
+    font-size: 41px;
+    text-align: center;
+    background-color: rgb(43, 178, 2);
+    border-radius: 10px;
+    color:white;
+}

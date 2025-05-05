@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Registration</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body><form id="form" action="/">
+    <div id="newpagebox"><div id="newpage"></div></div>
+    <center>
+<h1><center>REGISTER YOUR CAR</center></h1>
+<table>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;Category<select  id="category">
+            <option value="">Select</option>
+    <option value="Jeep">Jeep</option>
+    <option value="Hatchback">Hatchback</option>
+    <option value="EV">EV</option>
+    <option value="Sports-car">Sports Car</option>
+    <option value="Sedan">Sedan</option>
+    <option value="Pick-up">Pick-up</option>
+    <option value="Hybrid">Hybrid</option>
+        </select><div class="error"></div></td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;Company<select id="company">
+            <option value="">Select</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Mazda">Mazda</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Land Rover">Land-Rover</option>
+                <option value="Kia">Kia</option>
+                <option value="MG">MG</option>
+        </select><div class="error"></div></td>
+    </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;Car Name<input id="carname"maxlength="20"><div class="error"></div></td>
+        </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;Add pictures
+                    <div id="container">
+                        <label for="pics1" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics1" accept="image/*" style="display: none" class="picboxes">
+                        
+                        <label for="pics2" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics2" accept="image/*" style="display: none"class="picboxes">
+                        
+                        <label for="pics3" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics3" accept="image/*" style="display: none"class="picboxes">
+                        
+                        <label for="pics4" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics4" accept="image/*" style="display: none"class="picboxes">
+                        
+                        <label for="pics5" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics5" accept="image/*" style="display: none"class="picboxes">
+                        
+                        <label for="pics6" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics6" accept="image/*" style="display: none"class="picboxes">
+                        
+                        <label for="pics7" class="picslabel"><center>+</center></label>
+                        <input type="file" id="pics7" accept="image/*" style="display: none"class="picboxes"></div>
+                    <input type="file" id="pics" accept="image/*">
+                    <div class="error"></div>
+                </td>
+                
+            </tr>
+            </table>
+            <br>
+        <table>
+            <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;Add title<input id="title"maxlength="50" placeholder="Enter key features of your car" title="e.g condition,features,age,type"/><div class="error"></div></td>
+            </tr>
+            </table>
+            <br>
+    <table>
+        <tr>
+            <td><div>&nbsp;&nbsp;&nbsp;&nbsp;Add Discription</div><textarea id="discription" placeholder="Mention about conditions of your car" rows="5" ></textarea> <div class="error"></div></td>
+        </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;Location<input id="location" maxlength="12" title="Province" /><div class="error"></div></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;City<input id="city" maxlength="10"/><div class="error"></div></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;Neighbourhood<input id="neighbourhood" maxlength="10" /><div class="error"></div></td>
+            </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td id="Price">&nbsp;&nbsp;&nbsp;&nbsp;Price<input id="price"maxlength="9" placeholder="Enter price in Rs"/><div class="error"></div></td>
+                </tr>
+                </table>
+                <br>
+        <table>
+            <br>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;Name<input id="name" maxlength="18" /><div class="error"></div></td>
+            </tr>
+            <tr>
+                <td id="phonenumbertd">&nbsp;&nbsp;&nbsp;&nbsp;Phone number<input id="phonenumber" maxlength="11"/><div class="error"></div></td>
+            </tr>
+            </table>
+        <br>
+            <center><button id="post-ad">Post Ad</button></center>
+        </form>
+    </form></body></center>
+<script src="index.js"></script>
+
+</html>
